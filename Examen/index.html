@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante El Pollito</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Tituilos -->
+    <h1>🍽 Restaurante El Pollito</h1>
+    <p id="bienvenida"></p>
+    <button onclick="actualizarBienvenida()">Actualizar bienvenida</button>
+<!-- Menu -->
+    <h2>Elige una categoría:</h2>
+    <section id="categorias">
+        <button onclick="mostrarMenu('desayuno')">Desayunos</button>
+        <button onclick="mostrarMenu('comida')">Comidas</button>
+        <button onclick="mostrarMenu('cena')">Cenas</button>
+        <button onclick="mostrarMenu('brunch')">Brunch</button>
+    </section>
+<!-- espacio para mostrar menu -->
+    <div id="menu"></div>
+    <div id="mensajeExtra"></div>
+
+    <script src="script.js"></script>
+    <footer>
+        Tecnológico Nacional de México campus Pachuca - Programación Web - Evaluación Tema4  - Axel Llanderal Arteaga y Milton Juarez Austria
+    </footer>
+</body>
+
+</html>
